@@ -9,7 +9,7 @@ import UIKit
 
 let allowedEntry = false
 
-//! in Front not true
+// if there is a !in Front of the variable it means not true
 if !allowedEntry {
     print("ACCESS DENIED")
 }
