@@ -30,4 +30,26 @@ repeat {
 } while (index < salaries.count)
 //While x < less than 4 , keeps running until its greater or == to 4
 
+for x in 1...5 {
+    print("Index: \(x)")
+}
+
+for z in 1..<5 {
+    print("Index Z: \(z)")
+}
+
 //Loops keep repeating itself until a certain condition is met
+
+
+for i in 0..<salaries.count {
+    salaries[i] = salaries[i] + (salaries[i] * 0.10)
+}
+
+
+
+//For each loop
+
+for salary in salaries {
+    print("Salary: \(salary)")
+}
+
